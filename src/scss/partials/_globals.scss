@@ -1,0 +1,57 @@
+@use "fonts.scss";
+body {
+  font-family: fonts.$font1; //variable $font1 définie dans le module _fonts.scss
+}
+// Variables
+$primary-color: #202647;
+$secondary-color: #3D4C75;
+$tertiary-color: #D2BE8F;
+$quaternary-color: #EBE8E3;
+$primary-950: #202647;
+$primary-900: #303E78;
+$primary-800: #364697;
+$primary-700: #3C54B9;
+$primary-600: #4665CA;
+$primary-500: #5A81D7;
+$primary-400: #7AA0E0;
+$primary-300: #A5C1EB;
+$primary-200: #CAD9F3;
+$primary-100: #E1E9F8;
+$primary-50: #F2F5FC;
+$secondary-950: #272D44;
+$secondary-900: #3D4C75;
+$secondary-800: #43558A;
+$secondary-700: #4D66A8;
+$secondary-600: #5877B8;
+$secondary-500: #6B8EC6;
+$secondary-400: #87AAD3;
+$secondary-300: #AEC7E2;
+$secondary-200: #CFDDEE;
+$secondary-100: #E4EBF5;
+$secondary-50: #F3F7FB;
+$tertiary-950: #322318;
+$tertiary-900: #5E4530;
+$tertiary-800: #745238;
+$tertiary-700: #8F653F;
+$tertiary-600: #AC7F4A;
+$tertiary-500: #B99156;
+$tertiary-400: #C5A772;
+$tertiary-300: #D2BE8F;
+$tertiary-200: #E6DCC2;
+$tertiary-100: #F3EEE1;
+$tertiary-50: #FAF8F2;
+$quaternary-950: #3C1A0C;
+$quaternary-900: #68331B;
+$quaternary-800: #7A3D19;
+$quaternary-700: #924C16;
+$quaternary-600: #B76B17;
+$quaternary-500: #D58C1D;
+$quaternary-400: #E4A32B;
+$quaternary-300: #ECBE58;
+$quaternary-200: #F3DA95;
+$quaternary-100: #F8EDC9;
+$quaternary-50: #FAF3DD;
+$text-color-light: #FFFFFF;
+$text-color-dark: #000000;
+
+$shadow-color: rgba(0, 0, 0, 0.1);

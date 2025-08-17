@@ -1,0 +1,50 @@
+@use "../partials/globals" as g; // Import du fichier globals
+@use "../partials/functions" as f;
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  vertical-align: top;
+  background-color: g.$primary-100; // ← Utilise g. devant la variable
+  padding: 20px;
+}
+
+form > div {
+  margin: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+label > span {
+  font-weight: bold;
+  color: red;
+  margin-left: 5px;
+}
+
+form > div:last-child {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: g.$primary-600; // Utilise une de tes variables
+  color: g.$text-color-light;
+  padding: 5px 10px;
+  border: 0px;
+}
+
+input[type="submit"]:hover {
+  background-color: g.$primary-500; // Variable pour le hover
+  cursor: pointer;
+}
+
+form + p {
+  text-align: center;
+}
