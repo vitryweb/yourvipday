@@ -1,0 +1,52 @@
+@use "../partials/mixins" as m;
+@use "../partials/functions" as f;
+@use "../partials/globals" as g;
+
+.button {
+  @include m.resetA;
+  @include m.resetButton;
+  padding: f.rem(10) f.rem(16);
+  display: inline-block; // pour être sûr que le padding est ok
+  color: g.$text-color-light;
+  background-color: g.$secondary-900; // Corrigé : g.$primary-color
+  border-radius: f.rem(50);
+  font-weight: 600;
+  font-size: f.rem(16);
+  line-height: f.rem(18);
+
+  &:hover {
+    background-color: g.$secondary-950;
+  }
+
+  //modificateur de couleur
+  &--primary {
+    background-color: g.$secondary-900;
+    &:hover {
+      background-color: g.$secondary-950; // Corrigé : g.$primary-400
+    }
+  }
+
+  &--secondary {
+    background-color: g.$secondary-300; // Corrigé : g.$secondary-300
+    &:hover {
+      background-color: g.$secondary-400; // Corrigé : g.$secondary-400
+    }
+  }
+
+  &--danger {
+    background-color: g.$primary-200; // Corrigé : g.$primary-200
+    &:hover {
+      background-color: g.$primary-300; // Corrigé : g.$primary-300
+    }
+  }
+
+  //modificateur de taille
+  &--lg {
+    padding: f.rem(16) f.rem(24);
+  }
+
+  &--sm {
+    padding: f.rem(8) f.rem(12);
+    font-size: f.rem(14);
+  }
+}
