@@ -34,12 +34,10 @@ Your VIP Day est une plateforme permettant de réserver des expériences haut de
    ```bash
    cd C:\wamp64\www\yourvipday
    ```
-5. Installer les dépendances npm si nécessaire :
-   ```bash
-   npm install
    ```
 6. Lancer le watch pour compiler le SCSS en CSS automatiquement
    ```bash
    npm run watch
    ```
 7. Accéder au projet dans le navigateur : http://localhost/yourvipday
+8. Accéder au projet en ligne : yourvipday.carlavitry.fr/index.html
