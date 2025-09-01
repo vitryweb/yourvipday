@@ -1,0 +1,116 @@
+/* ===== Entry SCSS ===== */
+@import "variables";
+@import "buttons";
+@import "header";
+@import "footer";
+@import "home";
+@import "partners";
+@import "alerts";
+@import "search";
+@import "reviews";
+@import "debug";
+@import "forms";
+@import "cancellation";
+@import "email";
+@import "experience";
+@import "auth";
+@import "utilities";
+@import "dashboard";
+@import "legal";
+@import "profile";
+@import "booking";
+@import "admin";
+@import "panier";
+@import "mentions_legal";
+
+/* Reset doux */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: $font-body;
+  color: $text-dark;
+  background: $bg-page;
+
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400; // paragraphe régulier
+  color: #202647; // couleur texte principale
+}
+
+/* Titres / textes (Figma) */
+h1,
+.h1 {
+  font-family: $font-title;
+  font-size: $h1-size;
+  line-height: $h1-line;
+}
+h2,
+.h2 {
+  font-family: $font-title;
+  font-size: $h2-size;
+  line-height: $h2-line;
+}
+h3,
+.h3 {
+  font-family: $font-title;
+  font-size: $h3-size;
+  line-height: $h3-line;
+}
+
+p,
+.p {
+  font-size: $p-size;
+  line-height: $p-line;
+}
+
+/* Mobile type scale */
+@media (max-width: 600px) {
+  h1,
+  .h1 {
+    font-size: $h1m-size;
+    line-height: $h1m-line;
+  }
+  h2,
+  .h2 {
+    font-size: $h2m-size;
+    line-height: $h2m-line;
+  }
+  p,
+  .p {
+    font-size: $pm-size;
+    line-height: $pm-line;
+  }
+}
+
+/* Helpers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
