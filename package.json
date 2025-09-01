@@ -1,0 +1,18 @@
+{
+  "name": "yourvipday",
+  "version": "1.0.0",
+  "description": "Your VIP Day est une plateforme permettant de réserver des expériences haut de gamme à prix réduits pour toutes occasions spéciales. Profils personnalisés, réservations en ligne, intégration réseaux sociaux, gamification et partenariats exclusifs pour des moments inoubliables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass src/scss/main.scss public/assets/css/main.css --watch",
+    "build": "sass src/scss/main.scss public/assets/css/main.css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "sass": "^1.90.0"
+  }
+}
